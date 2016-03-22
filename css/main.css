@@ -114,6 +114,79 @@ section{
 section > footer{
 	width: 60%;
 	margin: 0 auto;
+	text-align: center;
+}
+section > footer > div {
+	colo: #565656;
+}
+footer .fa-heart {
+	color: #E04F4A;
+	margin-bottom: 3%;
+}
+footer textarea {
+	padding: 5px;
+	width: 100%;
+	border-color: #e5e5e5;
+}
+footer .button-group {
+	text-align: left;
+}
+footer .button-group button {
+	border:none;
+	background: white;
+	font-size: 12px;
+	padding: 0 5px 0 0;
+	color: #565656;
+}
+footer .button-group button:hover{
+	cursor: pointer;
+	color: #5e5e5e;
+	transition: 0.3s all ease-in-out;
+}
+/* 
+SITEWIDE FOOTER
+*/
+body > footer{
+	height: 200px;
+	position: relative;
+	background: #F8F9FD;
+	padding: 0 20%;
+}
+.previous-article,
+.next-article {
+	width: 50%;
+	display: inline-block;
+	position: relative;
+}
+.previous-article{
+	position: absolute;
+	left: 20%;
+}
+.previous-button {
+	text-align: left;
+}
+.next-article{
+	position:absolute;
+	right: 20%;
+}
+.next-button{
+	text-align: right;
+}
+.previous-button,
+.next-button{
+	margin: 10% 0;
+}
+.previous-button a,
+.next-button a{
+	margin: 3% 0;
+	color: #434345;
+	text-decoration:none;
+	font-weight: bold;
+}
+.previous-button p,
+.next-button p{
+	margin: 3% 0;
+	font-weight: normal;
 }
 
 
