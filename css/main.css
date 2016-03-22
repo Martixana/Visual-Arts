@@ -117,7 +117,7 @@ section > footer{
 	text-align: center;
 }
 section > footer > div {
-	colo: #565656;
+	color: #565656;
 }
 footer .fa-heart {
 	color: #E04F4A;
@@ -180,7 +180,7 @@ body > footer{
 .next-button a{
 	margin: 3% 0;
 	color: #434345;
-	text-decoration:none;
+	text-decoration: none;
 	font-weight: bold;
 }
 .previous-button p,
